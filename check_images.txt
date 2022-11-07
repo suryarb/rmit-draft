@@ -1,0 +1,18 @@
+Questions regarding Uploaded Image Classification:
+
+Dog profile: https://bowwowinsurance.com.au/dogs/dog-breeds/alaskan-malamute/
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+Answer: Resnet and VGG classified the image as dog Classifier: irish setter, red setter whereas Alexnet classifed as dog Classifier: sussex spaniel
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+Answer: No. Only Resnet classified both images to be the same breed of dog.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+Answer: All three models classified the object as coffee mug and elephant as african elephant, loxodonta africana.
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+Answer: Resnet as it has classified both dog_01 and dog_02 correctly as dog, irish setter, red setter and other models did not. It classified the coffee mug as well as the elephant correctly.
